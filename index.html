@@ -9,36 +9,39 @@
 <body>
 
     <!-- header -->
-
-    <h1 id="title">Forex Trading Survey Form</h1>
-    <p id="description">This form will help us determine, What are the most traded currency pairs in the Forex market?</p>
+    <div class="header">
+        <h1 id="title">Forex Trading Survey Form</h1>
+        <p id="description">This form will help us determine, What are the most traded currency pairs in the Forex market?</p>
+    </div>
 
     <!-- Form -->
 
     <form action="" id="survey-form">
         <label for="name" id="name-label">Name</label>
         <input type="text" id="name" placeholder="Enter your name" value="Name" required>
+        
         <label for="email" id="email-label">Email</label>
         <input type="email" id="email" placeholder="Enter your email" value="Email" required>
+        
         <label for="number" id="number-label">Age</label>
         <input type="number" id="number" placeholder="Age" value="Age" min="18" max="60">
-
-        <label for="dropdown" id="dropdown-label">What kind of trader are you?</label>
+        
+        <p>What kind of trader are you?</p>
         <select name="dropdown" id="dropdown">
             <option disabled selected value>Select type trader</option>
             <option value="Scalper">Scalper</option>
             <option value="Day trader">Day trader</option>
             <option value="Swing trader">Swing trader</option>
         </select>
-
-        <label>Time of Expirience as a trader
+        
+        <p>Time of Expirience as a trader</p>
             <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 6 monsths">+ 6 monsths</label>
             <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 1 year">+ 1 year</label>
             <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 3 years">+ 3 years</label>
             <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 5 years">+ 5 years</label>
-        </label>
+        
 
-        <label>What currency pairs do you trade?
+        <p>What currency pairs do you trade?</p>
             <label for="EUR/USD"><input type="checkbox" name="EUR/USD" id="EUR/USD" value="EUR/USD">EUR/USD</label>
         
             <label for="USD/JPY"><input type="checkbox" name="USD/JPY" id="USD/JPY" value="USD/JPY">USD/JPY</label>
@@ -50,10 +53,11 @@
             <label for="USD/CHF"><input type="checkbox" name="USD/CHF" id="USD/CHF" value="USD/CHF">USD/CHF</label>
         
             <label for="USD/CAD"><input type="checkbox" name="USD/CAD" id="USD/CAD" value="USD/CAD">USD/CAD</label>
-        </label>
+        
 
-        <label>Anything else you'd like to share with us?</label>
+        <p>Anything else you'd like to share with us?</p>
         <textarea name="" id="textarea" cols="50" rows="5"></textarea>
+        
 
         <button type="submit" id="submit">Submit</button>
     </form>
