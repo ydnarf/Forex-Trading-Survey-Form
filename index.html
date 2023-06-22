@@ -26,6 +26,7 @@
         <label for="number" id="number-label">Age</label>
         <input type="number" id="number" placeholder="Age" value="Age" min="18" max="60">
         
+    
         <p>What kind of trader are you?</p>
         <select name="dropdown" id="dropdown">
             <option disabled selected value>Select type trader</option>
@@ -34,21 +35,23 @@
             <option value="Swing trader">Swing trader</option>
         </select>
         
-        <p>Time of Expirience as a trader</p>
-        <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 6 monsths"> + 6 monsths</label>
-        <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 1 year"> + 1 year</label>
-        <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 3 years"> + 3 years</label>
-        <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 5 years"> + 5 years</label>
-        <hr>
+        <fieldset>
+            <legend>Time of Expirience as a trader</legend>
+            <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 6 monsths"> + 6 monsths</label>
+            <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 1 year"> + 1 year</label>
+            <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 3 years"> + 3 years</label>
+            <label for="TimeExpirience"><input type="radio" name="TimeExpirience" id="TimeExpirience" value="+ 5 years"> + 5 years</label>
+        </fieldset>
 
-        <p>What currency pairs do you trade?</p>
-        <label for="EUR/USD"><input type="checkbox" name="EUR/USD" id="EUR/USD" value="EUR/USD"> EUR/USD</label>
-        <label for="USD/JPY"><input type="checkbox" name="USD/JPY" id="USD/JPY" value="USD/JPY"> USD/JPY</label>        
-        <label for="GBP/USD"><input type="checkbox" name="GBP/USD" id="GBP/USD" value="GBP/USD"> GBP/USD</label>
-        <label for="AUD/USD"><input type="checkbox" name="AUD/USD" id="AUD/USD" value="AUD/USD"> AUD/USD</label>
-        <label for="USD/CHF"><input type="checkbox" name="USD/CHF" id="USD/CHF" value="USD/CHF"> USD/CHF</label>
-        <label for="USD/CAD"><input type="checkbox" name="USD/CAD" id="USD/CAD" value="USD/CAD"> USD/CAD</label>
-        <hr>
+        <fieldset>
+            <legend>What currency pairs do you trade?</legend>
+            <label for="EUR/USD"><input type="checkbox" name="EUR/USD" id="EUR/USD" value="EUR/USD"> EUR/USD</label>
+            <label for="USD/JPY"><input type="checkbox" name="USD/JPY" id="USD/JPY" value="USD/JPY"> USD/JPY</label>        
+            <label for="GBP/USD"><input type="checkbox" name="GBP/USD" id="GBP/USD" value="GBP/USD"> GBP/USD</label>
+            <label for="AUD/USD"><input type="checkbox" name="AUD/USD" id="AUD/USD" value="AUD/USD"> AUD/USD</label>
+            <label for="USD/CHF"><input type="checkbox" name="USD/CHF" id="USD/CHF" value="USD/CHF"> USD/CHF</label>
+            <label for="USD/CAD"><input type="checkbox" name="USD/CAD" id="USD/CAD" value="USD/CAD"> USD/CAD</label>
+        </fieldset>
 
         <p>Anything else you'd like to share with us?</p>
         <textarea name="" id="textarea" cols="50" rows="5" placeholder="Enter a commentary..."></textarea>
